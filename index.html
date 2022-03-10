@@ -62,7 +62,8 @@
       "hero": {
         "type": "image",
         "url": "https://www.img.in.th/images/a63a58ab3ac80997bfe807bf19fc793e.jpg",
-        "size": "full"
+        "size": "full",
+        "aspectRatio": "1:1"
       },
       "body": {
         "type": "box",
@@ -70,7 +71,7 @@
         "contents": [
           {
             "type": "text",
-            "text": "แจกทุนฟรี 50 เครดิต",
+            "text": "แจกทุนฟรี 50.-",
             "size": "xl",
             "color": "#FFD700",
             "weight": "bold",
@@ -78,15 +79,20 @@
           },
           {
             "type": "text",
-            "text": "รับได้ทั้งสมาชิกเก่า และสมาชิกใหม่",
-            "align": "center",
-            "weight": "bold"
+            "text": "เงื่อนไขทำยอด 300 ถอนได้เลย",
+            "weight": "bold",
+            "align": "center"
           },
           {
             "type": "text",
-            "text": "เงื่อนไขทำยอด 500 ถอนได้ทั้งหมด",
+            "text": "ไม่มีกติกาในการเล่นใดๆ ทั้งสิ้น",
             "weight": "bold",
             "align": "center"
+          },
+          {
+            "type": "separator",
+            "margin": "md",
+            "color": "#FF6600"
           }
         ]
       },
@@ -97,13 +103,25 @@
           {
             "type": "button",
             "action": {
-              "type": "message",
+              "type": "uri",
               "label": "รับเครดิตฟรี",
-              "text": "รับเครดิตฟรี100"
+              "uri": "https://lin.ee/8rFAwAC"
             },
-            "color": "#FFD700",
             "style": "primary",
-            "height": "sm"
+            "color": "#FFD700",
+            "height": "sm",
+            "offsetBottom": "md"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "แชร์ให้เพื่อน",
+              "uri": "https://liff.line.me/1656889187-Dk0AAkxL"
+            },
+            "style": "primary",
+            "height": "sm",
+            "color": "#FFD700"
           }
         ]
       }
@@ -130,15 +148,20 @@
           },
           {
             "type": "text",
-            "text": "สำหรับสมาชิกใหม่ สามารถรับได้",
+            "text": "รับโบนัสพิเศษสมาชิกใหม่",
             "weight": "bold",
             "align": "center"
           },
           {
             "type": "text",
-            "text": "*รับได้ 1 ครั้งเท่านั้น!! เล่นได้ทุกค่าย",
+            "text": "และโปรโมแนะนำฝาก 39 รับ 100",
             "weight": "bold",
             "align": "center"
+          },
+          {
+            "type": "separator",
+            "margin": "md",
+            "color": "#FF6600"
           }
         ]
       },
@@ -155,7 +178,19 @@
             },
             "style": "primary",
             "color": "#FFD700",
-            "height": "sm"
+            "height": "sm",
+            "offsetBottom": "md"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "แชร์ให้เพื่อน",
+              "uri": "https://liff.line.me/1656889187-Dk0AAkxL"
+            },
+            "color": "#FFD700",
+            "height": "sm",
+            "style": "primary"
           }
         ]
       }
